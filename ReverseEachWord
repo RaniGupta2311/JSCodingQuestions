@@ -1,0 +1,8 @@
+//1. Given a string, reverse each word 
+let str="namaste javascript";
+function reverseWord(str){
+    let arr=str.split(" ")
+    let res= arr.map((item)=>item.split("").reverse().join(""))
+    return res.join(" ");
+}
+console.log(reverseWord(str));
