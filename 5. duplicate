@@ -1,0 +1,5 @@
+//output [1,2,3,1,2,3]
+function duplicate(a){
+    return a.concat(a)
+}
+console.log(duplicate([1,2,3]))
