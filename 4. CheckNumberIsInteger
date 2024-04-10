@@ -1,0 +1,7 @@
+// 4. How to check a number is integer or not
+var a=12.5;
+if(a%1===0)
+console.log("its integer");
+else{
+    console.log("Its not an integer")
+}
